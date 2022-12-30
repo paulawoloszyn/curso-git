@@ -24,10 +24,23 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordUpdates>
+        <name>Cambiar_cosa</name>
+        <label>Cambiar cosa</label>
+        <locationX>176</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Active__c</field>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
         <name>Cambiar_nombre</name>
         <label>Cambiar nombre</label>
         <locationX>176</locationX>
         <locationY>335</locationY>
+        <connector>
+            <targetReference>Cambiar_cosa</targetReference>
+        </connector>
         <inputAssignments>
             <field>Name</field>
             <value>

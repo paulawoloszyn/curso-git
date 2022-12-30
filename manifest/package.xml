@@ -5,6 +5,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Contact.Prueba</members>
+        <name>ListView</name>
+    </types>
+    <types>
         <members>*</members>
         <name>Flow</name>
     </types>
